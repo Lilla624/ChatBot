@@ -1,0 +1,6 @@
+<div class="mb-3">
+    <label for="exampleFormControlTextarea1" class="form-label"></label>
+    <textarea *ngModel="newMessage" class="form-control" id="exampleFormControlTextarea1" placeholder=""></textarea>
+    <button (click)="sendMessage()" type="button" class="btn btn-primary mt-3">Nyomj meg</button>
+</div>
+<p>{{messages|json}}</p>
