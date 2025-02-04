@@ -1,7 +1,6 @@
 export const environments = {
     production: false,
     firebaseConfig : {
-        apiKey: "AIzaSyB67e3NXU8iComwvtEw8xK-HxzWb_e04ps",
         authDomain: "foodshop-6391c.firebaseapp.com",
         projectId: "foodshop-6391c",
         storageBucket: "foodshop-6391c.firebasestorage.app",
